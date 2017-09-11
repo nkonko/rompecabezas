@@ -1,0 +1,88 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0px;
+}
+li {
+  margin: 0px;
+  height: 200px;
+  width: 200px;
+}
+
+
+img{
+  border: 0.1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+#juego div {
+  animation: fadein 2s;
+}
+
+#instrucciones{
+  border: 2px dotted red;
+}
+
+.principal{
+  font-family: "Pokemon";
+  font-size: 50px;
+border: 0.1px solid black;
+color:gold;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: steelblue;
+}
+
+
+
+.piezas_todas{
+  display:  flex;
+  flex-wrap: wrap;
+}
+
+#pieza9{
+  background-color: crimson;
+}
+
+
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 30px;
+  color: #000;
+}
+
+
+.grilla{
+  height: 600px;
+  width: 600px;
+  background-color: red;
+  
+}
+
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@font-face {
+  font-family: "Pokemon";
+  src: url(../fonts/Pokemon.ttf) format("truetype");
+}
